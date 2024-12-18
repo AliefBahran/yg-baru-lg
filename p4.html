@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertanyaan 4</title>
+  <link rel="stylesheet" href="p4.css">
+</head>
+<body>
+  <div class="container">
+    <form action="proses_p4.php" method="POST">
+      <div class="title">
+        <strong>Apakah Anda tertarik dengan kegiatan sosial, religius, atau lingkungan?</strong>
+      </div>
+      <div class="options">
+        <label class="option">
+          <input type="radio" name="question4" value="Sosial" required>
+          <img src="sosial.jpg" alt="Sosial">
+          <p>Sosial</p>
+        </label>
+        <label class="option">
+          <input type="radio" name="question4" value="Religius" required>
+          <img src="religius.jpg" alt="Religius">
+          <p>Religius</p>
+        </label>
+        <label class="option">
+          <input type="radio" name="question4" value="Lingkungan" required>
+          <img src="lingkungan.jpg" alt="Lingkungan">
+          <p>Lingkungan</p>
+        </label>
+      </div>
+      <button type="submit" class="next-button">Berikutnya</button>
+    </form>
+  </div>
+</body>
+</html>
